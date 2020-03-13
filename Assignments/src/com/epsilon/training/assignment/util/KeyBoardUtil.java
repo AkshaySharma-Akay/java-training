@@ -8,4 +8,8 @@ public final class KeyBoardUtil {
 		Scanner sc = new Scanner(System.in);
 		return sc.next();
 	}
+	public static int getNumber() {
+		Scanner sc = new Scanner(System.in);
+		return sc.nextInt();
+	}
 }
